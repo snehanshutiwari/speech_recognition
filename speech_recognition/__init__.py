@@ -1073,7 +1073,7 @@ class Recognizer(AudioSource):
             convert_width=2  # audio samples should be 16-bit
         )
 
-        url = "https://speech.platform.bing.com/speech/recognition/interactive/cognitiveservices/v1?{}".format(urlencode({
+        url = "https://speech.platform.bing.com/speech/recognition/dictation/cognitiveservices/v1?{}".format(urlencode({
             "language": language,
             "locale": language,
             "requestid": uuid.uuid4(),
